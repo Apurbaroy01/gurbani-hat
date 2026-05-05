@@ -12,6 +12,7 @@ import {
     TextField,
 } from "@heroui/react";
 import { authClient } from "@/lib/auth-client";
+import Link from "next/link";
 
 const RegisterPage = () => {
     const [show, setShow] = useState(false);
@@ -103,6 +104,7 @@ const RegisterPage = () => {
                     <Check />
                     Register
                 </Button>
+                <p>Already have an account? <Link href="/login" className="underline">Login</Link></p>
             </Form>
         </div>
     );

@@ -1,12 +1,17 @@
 "use client";
 import { authClient } from "@/lib/auth-client";
 import Link from "next/link";
+import ThemTaggle from "../ThemTaggle/ThemTaggle";
 
 const Navbar = () => {
     const { data: session, isPending } = authClient.useSession();
     const user = session?.user;
 
     console.log(user, isPending, "user");
+
+    const handleLogout = async () => {
+        await authClient.signOut();
+    };
 
 
     return (
@@ -22,6 +27,7 @@ const Navbar = () => {
                         <Link href="/animals">Browse Animals</Link>
                     </div>
                     <div className="flex items-center gap-4">
+                        <ThemTaggle />
 
                         {isPending ? (
                             <span>Loading...</span>
@@ -29,7 +35,7 @@ const Navbar = () => {
                             user ? (
                                 <>
                                     <p>{user.name}</p>
-                                    <button >Logout</button>
+                                    <button className="btn btn-primary" onClick={()=>handleLogout()}>Logout</button>
                                 </>
                             ) : (
                                 <Link href="/login">Login</Link>

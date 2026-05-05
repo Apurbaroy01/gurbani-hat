@@ -12,6 +12,7 @@ import {
     TextField,
 } from "@heroui/react";
 import { authClient } from "@/lib/auth-client";
+import Link from "next/link";
 
 const LoginPage = () => {
     const [show, setShow] = useState(false);
@@ -95,7 +96,10 @@ const LoginPage = () => {
                     <Check />
                     Login
                 </Button>
+
+                <p>Don&apos;t have an account? <Link href="/register" className="text-shadow-red-500 underline">Register</Link></p>
             </Form>
+            
         </div>
     );
 };
