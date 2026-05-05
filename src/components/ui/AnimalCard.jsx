@@ -1,4 +1,3 @@
-"use client";
 
 import { FaMapMarkerAlt, FaWeight, FaStar } from "react-icons/fa";
 import { MdOutlineAccessTime } from "react-icons/md";
