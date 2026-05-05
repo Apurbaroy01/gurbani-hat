@@ -8,7 +8,7 @@ const QurbaniTips = () => {
     ];
 
     return (
-        <section className=" py-16">
+        <section className="border-t px-4 py-16 mx-aut">
             <div className="max-w-6xl mx-auto px-4 text-center">
 
                 <h2 className="text-3xl font-bold mb-10">
