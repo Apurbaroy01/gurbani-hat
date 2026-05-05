@@ -2,6 +2,7 @@
 import { authClient } from "@/lib/auth-client";
 import Link from "next/link";
 import ThemTaggle from "../ThemTaggle/ThemTaggle";
+import NavLink from "./NavLink";
 
 const Navbar = () => {
     const { data: session, isPending } = authClient.useSession();
@@ -23,8 +24,8 @@ const Navbar = () => {
                         <h2 className="font-bold text-2xl">Qurbani<span className="text-primary"> Hat</span></h2>
                     </div>
                     <div className="flex items-center gap-4">
-                        <Link href="/">Home</Link>
-                        <Link href="/animals">Browse Animals</Link>
+                        <NavLink href="/">Home</NavLink>
+                        <NavLink href="/animals">All Animals</NavLink>
                     </div>
                     <div className="flex items-center gap-4">
                         <ThemTaggle />

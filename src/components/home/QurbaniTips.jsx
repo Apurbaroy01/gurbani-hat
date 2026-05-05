@@ -8,7 +8,7 @@ const QurbaniTips = () => {
     ];
 
     return (
-        <section className="bg-gray-50 py-16">
+        <section className=" py-16">
             <div className="max-w-6xl mx-auto px-4 text-center">
 
                 <h2 className="text-3xl font-bold mb-10">
@@ -19,7 +19,7 @@ const QurbaniTips = () => {
                     {tips.map((tip, i) => (
                         <div
                             key={i}
-                            className="bg-white p-6 rounded-xl shadow hover:shadow-md"
+                            className="bg-white text-black p-6 rounded-xl shadow hover:shadow-md"
                         >
                             <p className="font-medium">{tip}</p>
                         </div>
