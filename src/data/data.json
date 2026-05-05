@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Raja",
+    "breed": "Black Bengal",
+    "price": 45000,
+    "weight": 35,
+    "age": 2,
+    "location": "Mymensingh",
+    "image": "https://images.unsplash.com/photo-1601758003122-53c40e686a19",
+    "category": "Goat",
+    "rating": 4.7
+  },
+  {
+    "id": 2,
+    "name": "Sultan",
+    "breed": "Deshi Cow",
+    "price": 120000,
+    "weight": 280,
+    "age": 3,
+    "location": "Bogura",
+    "image": "https://images.unsplash.com/photo-1596733430284-f7437764b1a9",
+    "category": "Cow",
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "name": "Kala",
+    "breed": "Black Goat",
+    "price": 30000,
+    "weight": 28,
+    "age": 2,
+    "location": "Dhaka",
+    "image": "https://images.unsplash.com/photo-1560114928-40f1f1eb26a0",
+    "category": "Goat",
+    "rating": 4.5
+  },
+  {
+    "id": 4,
+    "name": "Shahi",
+    "breed": "Sahiwal",
+    "price": 150000,
+    "weight": 300,
+    "age": 4,
+    "location": "Rajshahi",
+    "image": "https://images.unsplash.com/photo-1500595046743-cd271d694d30",
+    "category": "Cow",
+    "rating": 4.9
+  },
+  {
+    "id": 5,
+    "name": "Mini",
+    "breed": "White Goat",
+    "price": 28000,
+    "weight": 25,
+    "age": 1.5,
+    "location": "Khulna",
+    "image": "https://images.unsplash.com/photo-1593113630400-ea4288922497",
+    "category": "Goat",
+    "rating": 4.3
+  },
+  {
+    "id": 6,
+    "name": "Boss",
+    "breed": "Brahman",
+    "price": 180000,
+    "weight": 350,
+    "age": 5,
+    "location": "Sylhet",
+    "image": "https://images.unsplash.com/photo-1608979048467-6194dabc6a3d",
+    "category": "Cow",
+    "rating": 4.9
+  },
+  {
+    "id": 7,
+    "name": "Choto",
+    "breed": "Local Goat",
+    "price": 25000,
+    "weight": 22,
+    "age": 1,
+    "location": "Comilla",
+    "image": "https://images.unsplash.com/photo-1575936123452-b67c3203c357",
+    "category": "Goat",
+    "rating": 4.2
+  },
+  {
+    "id": 8,
+    "name": "Mega",
+    "breed": "Deshi Cow",
+    "price": 110000,
+    "weight": 260,
+    "age": 3,
+    "location": "Rangpur",
+    "image": "https://images.unsplash.com/photo-1546443046-ed1ce6ffd1ab",
+    "category": "Cow",
+    "rating": 4.6
+  },
+  {
+    "id": 9,
+    "name": "Tiger",
+    "breed": "Hybrid",
+    "price": 95000,
+    "weight": 240,
+    "age": 2,
+    "location": "Barisal",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee",
+    "category": "Cow",
+    "rating": 4.4
+  },
+  {
+    "id": 10,
+    "name": "Cute",
+    "breed": "Baby Goat",
+    "price": 20000,
+    "weight": 18,
+    "age": 1,
+    "location": "Noakhali",
+    "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a",
+    "category": "Goat",
+    "rating": 4.1
+  }
+]

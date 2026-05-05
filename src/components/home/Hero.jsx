@@ -26,7 +26,7 @@ const Hero = () => {
 
                 <div>
                     <Image
-                        src="https://i.ibb.co/8r8YB1m/cow.png"
+                        src="https://images.unsplash.com/photo-1596733430284-f7437764b1a9"
                         alt="cow"
                         className="rounded-xl shadow-lg"
                         width={500}
