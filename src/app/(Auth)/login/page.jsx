@@ -13,6 +13,7 @@ import {
 } from "@heroui/react";
 import { authClient } from "@/lib/auth-client";
 import Link from "next/link";
+import toast from "react-hot-toast";
 
 const LoginPage = () => {
     const [show, setShow] = useState(false);
@@ -36,7 +37,7 @@ const LoginPage = () => {
         }
 
         if (res) {
-            alert("Login successful");
+            toast.success('Login Successfully!')
         }
     };
 

@@ -13,6 +13,8 @@ import {
 } from "@heroui/react";
 import { authClient } from "@/lib/auth-client";
 import Link from "next/link";
+import Swal from "sweetalert2";
+import { redirect } from "next/navigation";
 
 const RegisterPage = () => {
     const [show, setShow] = useState(false);
@@ -27,7 +29,6 @@ const RegisterPage = () => {
             name: data.name,
             email: data.email, // required
             password: data.password, // required
-            callbackURL: "/",
         });
 
         console.log({ res, error });
@@ -37,7 +38,14 @@ const RegisterPage = () => {
         }
 
         if (res) {
-            alert("Signup successful");
+            Swal.fire({
+                position: "top",
+                icon: "success",
+                title: "Register Successfully!",
+                showConfirmButton: false,
+                timer: 1500
+            });
+            redirect("/");
         }
     };
 
