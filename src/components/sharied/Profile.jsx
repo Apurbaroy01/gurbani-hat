@@ -2,6 +2,7 @@
 
 import { authClient } from "@/lib/auth-client";
 import Image from "next/image";
+import Link from "next/link";
 import { redirect } from "next/navigation";
 import {
     FaEnvelope,
@@ -90,10 +91,14 @@ const Profile = () => {
                     <div className="grid grid-cols-2 gap-4 mt-8">
 
                         {/* Edit */}
-                        <button className="btn btn-primary rounded-2xl">
+                        <Link
+                            href={"/profile"}
+                            onClick={() => document.getElementById("my_modal_5").close()}
+                            className="btn btn-primary rounded-2xl"
+                        >
                             <FaEdit />
                             Edit
-                        </button>
+                        </Link>
 
                         {/* Logout */}
                         <button onClick={() => handleLogout()}
