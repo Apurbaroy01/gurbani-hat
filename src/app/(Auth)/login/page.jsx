@@ -55,7 +55,7 @@ const LoginPage = () => {
                 {/* Email */}
                 <TextField fullWidth isRequired name="email" type="email">
                     <Label>Email</Label>
-                    <Input placeholder="john@example.com" />
+                    <Input placeholder="Type your email" />
                     <FieldError />
                 </TextField>
 

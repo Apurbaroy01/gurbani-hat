@@ -63,14 +63,14 @@ const RegisterPage = () => {
                 {/* Name */}
                 <TextField fullWidth isRequired name="name">
                     <Label>Name</Label>
-                    <Input placeholder="John Doe" />
+                    <Input placeholder="Type your name" />
                     <FieldError />
                 </TextField>
 
                 {/* Email */}
                 <TextField fullWidth isRequired name="email" type="email">
                     <Label>Email</Label>
-                    <Input placeholder="john@example.com" />
+                    <Input placeholder="Type your email" />
                     <FieldError />
                 </TextField>
 
